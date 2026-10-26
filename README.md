@@ -128,10 +128,6 @@ Dashboard Metabase berisi kartu berikut:
 - Suhu rata-rata per jam per kota
 - Suhu rata-rata per hari per kota
 
-<!-- Setelah mengunggah screenshot ke docs/images/, hapus tanda komentar pada baris di bawah.
-![Dashboard Metabase](docs/images/dashboard.png)
-![Graph DAG di Airflow](docs/images/airflow-graph.png)
--->
 
 ## Cara menjalankan
 
@@ -146,8 +142,8 @@ Dashboard Metabase berisi kartu berikut:
 Di pgAdmin (Query Tool, login sebagai `postgres`), ganti password sesuai keinginan:
 
 ```sql
-CREATE USER etl_user WITH PASSWORD 'GANTI_PASSWORD_ETL';
-CREATE USER bi_user  WITH PASSWORD 'GANTI_PASSWORD_BI';
+CREATE USER etl_user WITH PASSWORD '***';
+CREATE USER bi_user  WITH PASSWORD '***';
 ```
 
 Jalankan sendiri (satu perintah):
